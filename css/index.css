@@ -1,0 +1,141 @@
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.media-card {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 0;
+    border-radius: 0.55rem;
+}
+input:focus{
+    box-shadow: none !important;
+}
+.media-card p a{
+    color: black;
+    text-decoration: none;
+}
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+
+.sidebar a.active {
+    background-color: #00519a;
+    color: white;
+}
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+}
+.sidebar a:hover{
+    background: linear-gradient(to right,#3a83c5 0,#2659a8 100%);
+    color: #fff;
+}
+.news-contentmain a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.news-bdy img{
+    border-radius: 15px;
+}
+.news-bdy  a{
+    color: #000;
+    text-decoration: none;
+}
+.crs-score-temp {
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 1px 15px 2px #a7a5a5;
+    margin-top: 50px;
+}
+.girl-pos {
+    position: absolute;
+    left: 35px;
+    bottom: 0px;
+    width: 22%;
+}
+.check-eligible{
+    padding: 20px 0;
+}
+.check-eligible h2{
+    font-size: 24px;
+}
+.btn{
+    font-weight: 600;
+    background: linear-gradient(to right,#3a83c5 0,#2659a8 100%);
+    border: none;
+}
+
+
+.btn:hover{
+    background-color: #336ea1;
+}
+h2{
+    font-weight: 700;
+}
+.news-subscribe {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+.subscribe-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.subscribe-para {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+}
+.subscribe_input { 
+    color: #000;
+    display: block;
+    width: 100%;
+    border-radius: 29px;
+    padding: 0.375rem 1.75rem;
+    border: 0;
+    height: 45px;
+}
+.form-control:focus {
+    border-color: inherit;
+}
+.subscribe_btn {
+    float: right;
+    display: flex;
+    margin-top: -37px;
+    border: 0;
+    margin-right: 10px;
+    padding: 0.25rem 3.5rem !important;
+}
+.subscribe-content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+@media screen and (max-width: 570px) {
+
+    .check-eligible h2{
+        font-size: 20px;
+    }
+    .subscribe-title{
+        font-size: 20px;
+    }
+    .subscribe-para{
+        font-size: 13px;
+    }
+}
